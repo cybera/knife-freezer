@@ -1,7 +1,7 @@
 knife-freezer
 =============
 
-Knife plugin to store and retrieve node attributes via a databag
+Knife plugin to store and retrieve node attributes via a databag. You need to first create a databag of the name ENVIRONMENT_freezer where ENVIRONMENT is your chef_environment. For example, the _default environment would use a databag with the name: _default_freezer.
 
 # Installation #
 
